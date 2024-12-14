@@ -1,0 +1,30 @@
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\bin\Debug\net8.0\appsettings.json
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\bin\Debug\net8.0\wep programlama proje.staticwebassets.runtime.json
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\bin\Debug\net8.0\wep programlama proje.exe
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\bin\Debug\net8.0\wep programlama proje.deps.json
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\bin\Debug\net8.0\wep programlama proje.runtimeconfig.json
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\bin\Debug\net8.0\wep programlama proje.dll
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\bin\Debug\net8.0\wep programlama proje.pdb
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\wep programlama proje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\wep programlama proje.AssemblyInfoInputs.cache
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\wep programlama proje.AssemblyInfo.cs
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\wep programlama proje.csproj.CoreCompileInputs.cache
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\wep programlama proje.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\wep programlama proje.RazorAssemblyInfo.cache
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\wep programlama proje.RazorAssemblyInfo.cs
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\staticwebassets\msbuild.wep programlama proje.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\staticwebassets\msbuild.build.wep programlama proje.props
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.wep programlama proje.props
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.wep programlama proje.props
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\scopedcss\bundle\wep programlama proje.styles.css
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\scopedcss\projectbundle\wep programlama proje.bundle.scp.css
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\wep programlama proje.dll
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\refint\wep programlama proje.dll
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\wep programlama proje.pdb
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\wep programlama proje.genruntimeconfig.cache
+C:\Users\hasanbera\Desktop\web programlama proje\wep programlama proje\obj\Debug\net8.0\ref\wep programlama proje.dll
