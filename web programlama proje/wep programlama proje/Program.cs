@@ -1,6 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using System;
 using wep_programlama_proje.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Connection string'i okuyun
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
