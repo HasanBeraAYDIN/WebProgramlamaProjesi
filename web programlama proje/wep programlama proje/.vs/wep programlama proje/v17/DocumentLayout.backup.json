@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\wep programlama proje\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC98D913-FE3B-4633-B28E-32CB8242B3A6}|wep programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\wep programlama proje\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC98D913-FE3B-4633-B28E-32CB8242B3A6}|wep programlama proje.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC98D913-FE3B-4633-B28E-32CB8242B3A6}|wep programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\wep programlama proje\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BC98D913-FE3B-4633-B28E-32CB8242B3A6}|wep programlama proje.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC98D913-FE3B-4633-B28E-32CB8242B3A6}|wep programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\wep programlama proje\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BC98D913-FE3B-4633-B28E-32CB8242B3A6}|wep programlama proje.csproj|solutionrelative:views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC98D913-FE3B-4633-B28E-32CB8242B3A6}|wep programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\wep programlama proje\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BC98D913-FE3B-4633-B28E-32CB8242B3A6}|wep programlama proje.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC98D913-FE3B-4633-B28E-32CB8242B3A6}|wep programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\wep programlama proje\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BC98D913-FE3B-4633-B28E-32CB8242B3A6}|wep programlama proje.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BC98D913-FE3B-4633-B28E-32CB8242B3A6}|wep programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\wep programlama proje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC98D913-FE3B-4633-B28E-32CB8242B3A6}|wep programlama proje.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Navbar.cshtml",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\wep programlama proje\\Views\\Shared\\_Navbar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Navbar.cshtml",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\wep programlama proje\\Views\\Shared\\_Navbar.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Navbar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T18:11:42.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\wep programlama proje\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\wep programlama proje\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\wep programlama proje\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\wep programlama proje\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T17:59:54.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\wep programlama proje\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\wep programlama proje\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-19T17:59:40.227Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\wep programlama proje\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\wep programlama proje\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-18T23:35:50.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\wep programlama proje\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\wep programlama proje\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-18T18:59:17.943Z",
+              "WhenOpened": "2024-12-19T23:12:13.679Z",
               "EditorCaption": ""
             }
           ]

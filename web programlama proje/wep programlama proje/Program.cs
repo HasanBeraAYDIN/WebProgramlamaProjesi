@@ -1,14 +1,14 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using System;
 using wep_programlama_proje.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Connection string'i okuyun
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
-
+builder.Services.AddDbContext<DataContext>(options =>
+{
+    var configuration =builder.Configuration;
+    var ConnectionString = configuration.GetConnectionString("database");
+    options.UseSqlite(ConnectionString);
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

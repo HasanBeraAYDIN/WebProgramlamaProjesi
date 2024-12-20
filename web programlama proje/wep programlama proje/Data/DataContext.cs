@@ -4,10 +4,13 @@ namespace wep_programlama_proje.Data
 {
     public class DataContext :DbContext
     {
-        public DbSet<Calisan> Calisanlar { get; set; }
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
+        { 
+        
+        }
+        public DbSet<Calisan> Calisanlar => Set<Calisan>();
 
-        public DbSet<Hizmet> Hizmetler { get; set; }
-        public DbSet<Musteri> Musteriler { get; set; }
+        public DbSet<Hizmet> Hizmetler => Set<Hizmet>();
 
 
     }
