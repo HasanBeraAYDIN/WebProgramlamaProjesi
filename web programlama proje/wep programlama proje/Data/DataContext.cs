@@ -12,6 +12,6 @@ namespace wep_programlama_proje.Data
 
         public DbSet<Hizmet> Hizmetler => Set<Hizmet>();
 
-
+        public DbSet<Musteri> Musteriler => Set<Musteri>();
     }
 }

@@ -5,9 +5,9 @@ namespace wep_programlama_proje.Data
     public class Calisan
     {
         [Key]
-        public int Id { get; set; }
+        public int CalisanId { get; set; }
         public required string CalisanAd {  get; set; }
-        public int Maas { get; set; }    
-        public string Uzmanlik {  get; set; }
+        public string CalisanUzmanlik {  get; set; }
+
     }
 }
