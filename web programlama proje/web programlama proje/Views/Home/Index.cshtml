@@ -1,0 +1,11 @@
+﻿@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = "Home Page";
+    string Ad = Context.Session.GetString("KullaniciAd");
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @Ad</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

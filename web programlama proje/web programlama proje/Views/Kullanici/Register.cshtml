@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Kayıt Ol";
+}
+@model Kullanici
+<div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+    <div class="card shadow" style="max-width: 500px; width: 100%; min-height: 600px;">
+        <div class="card-header bg-dark text-white text-center">
+            <h4>Hesap Oluştur</h4>
+        </div>
+        <div class="card-body">
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <div class="alert alert-danger text-center">
+                    @ViewBag.ErrorMessage
+                </div>
+            }
+            <form asp-action="Register" asp-controller="Kullanici" method="post">
+                <div class="mb-3">
+                    <label asp-for="KullaniciAd" class="form-label"></label>
+                    <input asp-for="KullaniciAd" class="form-control" placeholder="Adınızı ve soyadınızı girin" />
+                    <span asp-validation-for="KullaniciAd" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="KullaniciEmail" class="form-label"></label>
+                    <input asp-for="KullaniciEmail" class="form-control" placeholder="E-posta adresinizi girin" />
+                    <span asp-validation-for="KullaniciEmail" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Password" class="form-label"></label>
+                    <input asp-for="Password" class="form-control" type="password" placeholder="Şifrenizi oluşturun" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="SifreOnay" class="form-label"></label>
+                    <input asp-for="SifreOnay" class="form-control" type="password" placeholder="Şifrenizi tekrar girin" />
+                    <span asp-validation-for="SifreOnay" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-dark w-100">Kayıt Ol</button>
+            </form>
+            <div class="text-center mt-3">
+                <span>Zaten bir hesabınız var mı?</span>
+                <a asp-action="Login" asp-controller="Login" class="btn btn-link">Giriş Yap</a>
+            </div>
+        </div>
+    </div>
+</div>

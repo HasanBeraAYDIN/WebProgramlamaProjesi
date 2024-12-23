@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Profil";
+    string Ad = Context.Session.GetString("KullaniciAd");
+    string Email = Context.Session.GetString("KullaniciEmail");
+
+
+}
+<head>
+    <link href="~/css/Profil.css" rel="stylesheet" />
+</head>
+
+<section class="profile-section">
+    <div class="container">
+        <h1 class="section-title">Profilim</h1>
+        <div class="profile-card">
+            <!-- Fotoğraf -->
+            <div class="profile-photo">
+                <img src="/images/default-profile.png" alt="Profil Fotoğrafı">
+                <button class="edit-btn">Fotoğrafı Düzenle</button>
+            </div>
+
+            <!-- Profil Bilgileri -->
+            <div class="profile-info">
+                <div class="info-item">
+                    <label>Ad:</label>
+                    <span>@Ad</span>
+                    <button class="edit-btn">Düzenle</button>
+                </div>
+                <div class="info-item">
+                    <label>Email:</label>
+                    <span>@Email</span>
+                    <button class="edit-btn">Düzenle</button>
+                </div>
+                <div class="info-item">
+                    <label>Şifre:</label>
+                    <span>********</span>
+                    <button class="edit-btn">Düzenle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

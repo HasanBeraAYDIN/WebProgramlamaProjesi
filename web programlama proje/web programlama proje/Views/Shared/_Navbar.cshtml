@@ -1,0 +1,63 @@
+﻿@using Microsoft.AspNetCore.Http
+
+@{
+    string Ad = Context.Session.GetString("KullaniciAd");
+}
+
+
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Şirket Adı</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: #ffffff;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" asp-area="" asp-controller="Home" asp-action="Index">Anasayfa</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Hakkımızda
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                        <li><a class="dropdown-item" asp-area="" asp-controller="Hakkimizda" asp-action="Hakkimizda">Hakkımızda</a></li>
+                        <li><a class="dropdown-item" asp-area="" asp-controller="Hizmetler" asp-action="Hizmetler">Hizmetlerimiz</a></li>
+                        <li><a class="dropdown-item" asp-area="" asp-controller="Calisanlar" asp-action="Index">Çalışanlarımız</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Iletisim" asp-action="Iletisim">İletişim</a>
+                </li>
+            </ul>
+
+            <!-- Kullanıcı giriş durumuna göre gösterilen butonlar -->
+            @if (Ad!=null)
+            {
+                <div class="d-flex">
+                    <div class="nav-item dropdown">
+                        <a class="btn btn-outline-light dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Hesabım
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="userDropdown">
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Kullanici" asp-action="Profil">Profil</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Randevular" asp-action="Index">Randevularım</a></li>
+                            <li>
+                                <form action="/Kullanici/Logout" method="post" class="d-inline">
+                                    <button class="dropdown-item" type="submit">Çıkış Yap</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="d-flex">
+                    <a class="btn btn-outline-light me-3" asp-area="" asp-controller="Kullanici" asp-action="Login">Giriş Yap</a>
+                    <a class="btn btn-outline-light" asp-area="" asp-controller="Kullanici" asp-action="Register">Kayıt Ol</a>
+                </div>
+            }
+        </div>
+    </div>
+</nav>
