@@ -16,7 +16,11 @@ namespace web_programlama_proje.Controllers
         {
             _dataContext = context;
         }
-        
+        public IActionResult Duzenle()
+        {
+            return View();
+        }
+
         public IActionResult Profil()
         {
             var kullaniciEmail = HttpContext.Session.GetString("KullaniciEmail");
@@ -113,6 +117,48 @@ namespace web_programlama_proje.Controllers
             
             return RedirectToAction("Index", "Home");
         }
+
+        [HttpPost]
+
+        public async Task<IActionResult> Duzenle(string YeniAd, string YeniEmail)
+        {
+            // Session'dan giriş yapmış kullanıcının Email veya ID bilgisini alıyoruz.
+            var sessionEmail = HttpContext.Session.GetString("KullaniciEmail");
+            if (string.IsNullOrEmpty(sessionEmail))
+            {
+                Console.WriteLine("kullanıcı email boş");
+                return RedirectToAction("Login", "Kullanici"); // Oturum yoksa login sayfasına yönlendir.
+            }
+            Console.WriteLine("ilk if koşulunu geçti");
+            // Veritabanından kullanıcıyı bul.
+            var user = await _dataContext.Kullanicilar.FirstOrDefaultAsync(u => u.KullaniciEmail == sessionEmail);
+            if (user == null)
+            {
+                Console.WriteLine("kullanıcı bulunamadı");
+                return NotFound("Kullanıcı bulunamadı."); // Kullanıcı bulunmazsa hata döndür.
+            }
+            Console.WriteLine("ikinci if koşulunu geçti");
+            // Formdan gelen değerlerle kullanıcı bilgilerini güncelle.
+            user.KullaniciAd = YeniAd;
+            user.KullaniciEmail = YeniEmail;
+            user.Password = user.Password;
+            Console.WriteLine("kullanıcı bilgileri güncellendi");
+            Console.WriteLine($"YENİ AD: {user.KullaniciAd}");
+            Console.WriteLine($"YENİ EMAİL: {user.KullaniciEmail}");
+
+            // Veritabanında değişiklikleri kaydet.
+            _dataContext.Kullanicilar.Update(user);
+            await _dataContext.SaveChangesAsync();
+
+            Console.WriteLine("değiliklikler kaydedildi");
+
+            // Session'daki bilgileri güncelle.
+            HttpContext.Session.SetString("KullaniciAd", user.KullaniciAd);
+            HttpContext.Session.SetString("KullaniciEmail", user.KullaniciEmail);
+
+            return RedirectToAction("Profil", "Kullanici"); // Profil sayfasına yönlendir.
+        }
+
 
     }
 }

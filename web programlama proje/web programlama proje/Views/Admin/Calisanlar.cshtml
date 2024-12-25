@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewData["Title"] = "Calisanlar";
+    Layout = "_AdminLayout";
+}
+<script>
+    // API'den verileri çek
+    async function fetchCalisanlar() {
+        try {
+            const response = await fetch('/api/Calisan');
+            const calisanlar = await response.json();
+            populateTable(calisanlar); // Tabloyu doldur
+        } catch (error) {
+            console.error('Çalışan verileri alınırken hata oluştu:', error);
+        }
+    }
+
+    // Tabloyu doldur
+    function populateTable(calisanlar) {
+        const tableBody = document.querySelector('table tbody');
+        tableBody.innerHTML = ''; // Eski verileri temizle
+
+        calisanlar.forEach((calisan, index) => {
+            const row = `
+                    <tr>
+                        <td>${index + 1}</td>
+                        <td>${calisan.ad}</td>
+                        <td>${calisan.uzmanlik}</td>
+                        <td>
+                            <button class="btn btn-edit">Düzenle</button>
+                            <button class="btn btn-delete">Sil</button>
+                        </td>
+                    </tr>
+                `;
+            tableBody.innerHTML += row;
+        });
+    }
+
+    // Sayfa yüklendiğinde API'den verileri çek
+    document.addEventListener('DOMContentLoaded', fetchCalisanlar);
+</script>

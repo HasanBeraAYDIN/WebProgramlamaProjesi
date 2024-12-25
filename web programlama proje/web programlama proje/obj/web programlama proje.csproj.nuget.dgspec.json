@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hasanbera\\Desktop\\web proje\\web programlama proje\\web programlama proje.csproj": {}
+    "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\web programlama proje.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hasanbera\\Desktop\\web proje\\web programlama proje\\web programlama proje.csproj": {
+    "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\web programlama proje.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hasanbera\\Desktop\\web proje\\web programlama proje\\web programlama proje.csproj",
+        "projectUniqueName": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\web programlama proje.csproj",
         "projectName": "web programlama proje",
-        "projectPath": "C:\\Users\\hasanbera\\Desktop\\web proje\\web programlama proje\\web programlama proje.csproj",
+        "projectPath": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\web programlama proje.csproj",
         "packagesPath": "C:\\Users\\hasanbera\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hasanbera\\Desktop\\web proje\\web programlama proje\\obj\\",
+        "outputPath": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

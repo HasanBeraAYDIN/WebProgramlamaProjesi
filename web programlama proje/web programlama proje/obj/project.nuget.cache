@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lMWe0Jfwank=",
+  "dgSpecHash": "I66G4iB4meE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hasanbera\\Desktop\\web proje\\web programlama proje\\web programlama proje.csproj",
+  "projectFilePath": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\web programlama proje.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hasanbera\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",
     "C:\\Users\\hasanbera\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

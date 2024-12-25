@@ -2,8 +2,6 @@
     ViewData["Title"] = "Profil";
     string Ad = Context.Session.GetString("KullaniciAd");
     string Email = Context.Session.GetString("KullaniciEmail");
-
-
 }
 <head>
     <link href="~/css/Profil.css" rel="stylesheet" />
@@ -15,7 +13,7 @@
         <div class="profile-card">
             <!-- Fotoğraf -->
             <div class="profile-photo">
-                <img src="/images/default-profile.png" alt="Profil Fotoğrafı">
+                <img src="\img\profil.jpg" alt="Profil Fotoğrafı">
                 <button class="edit-btn">Fotoğrafı Düzenle</button>
             </div>
 
@@ -24,19 +22,19 @@
                 <div class="info-item">
                     <label>Ad:</label>
                     <span>@Ad</span>
-                    <button class="edit-btn">Düzenle</button>
                 </div>
                 <div class="info-item">
                     <label>Email:</label>
                     <span>@Email</span>
-                    <button class="edit-btn">Düzenle</button>
                 </div>
                 <div class="info-item">
                     <label>Şifre:</label>
                     <span>********</span>
-                    <button class="edit-btn">Düzenle</button>
                 </div>
             </div>
+        </div>
+        <div class="edit-button-container">
+            <a asp-controller="Kullanici" asp-action="Duzenle"><button asp-controller="Kullanici" asp-action="Duzenle" class="edit-btn">Düzenle</button></a>
         </div>
     </div>
 </section>
