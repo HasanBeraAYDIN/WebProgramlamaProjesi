@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Profil";
+    string Ad = Context.Session.GetString("KullaniciAd");
+    string Email = Context.Session.GetString("KullaniciEmail");
+}
+<head>
+    <link href="~/css/Profil.css" rel="stylesheet" />
+</head>
+
+<section class="profile-section">
+    <div class="container">
+        <h1 class="section-title">Profilim</h1>
+        <div class="profile-card">
+            
+            <div class="profile-photo">
+                <img src="\img\profil.jpg" alt="Profil Fotoğrafı">
+                <button class="edit-btn">Fotoğrafı Düzenle</button>
+            </div>
+
+           
+            <form method="post" asp-controller="Kullanici" asp-action="Duzenle">
+                <div class="profile-info">
+                    <div class="info-item">
+                        <label>Ad:</label>
+                        <input type="text" name="YeniAd" value="Yeni Ad" class="input-field" />
+                    </div>
+                    <div class="info-item">
+                        <label>Email:</label>
+                        <input type="email" name="YeniEmail" value="Yeni Email" class="input-field" />
+                    </div>
+                    <!-- <div class="info-item"> 
+                        <label>Şifre:</label>
+                        <input type="password" name="Password" value="Yeni Şifre" class="input-field" />
+                    </div> -->
+                </div>
+                <div class="submit-btn-container">
+                    <button type="submit" class="submit-btn">Düzenle</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
