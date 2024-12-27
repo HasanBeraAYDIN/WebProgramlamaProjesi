@@ -1,112 +1,15 @@
-﻿/* Admin Panel Navbar */
-.navbar-custom {
-    background-color: #2c3e50; /* Koyu Mavi-Gri */
-    width: 240px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding-top: 1rem;
-    border-right: 1px solid #1a242f;
-}
-
-.navbar-header .navbar-brand {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #ffffff;
-    text-transform: uppercase;
-}
-
-    .navbar-header .navbar-brand:hover {
-        color: #adb5bd;
-        text-decoration: none;
-    }
-
-/* Nav Link */
-.nav-link {
-    color: #d1d1d1;
-    padding: 12px 20px;
-    font-size: 0.95rem;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-    .nav-link.active {
-        background-color: #1abc9c;
-        color: #ffffff !important;
-    }
-
-    .nav-link:hover {
-        background-color: #34495e;
-        color: #ffffff;
-    }
-
-    .nav-link i {
-        font-size: 1.2rem;
-    }
-
-.navbar-custom .nav-link:not(.active) i {
-    color: #adb5bd;
-}
-
-.navbar-custom .nav-link.active i {
-    color: #ffffff;
-}
-
-/* Nav Button as Link */
-.nav-button {
-    width:100%;
-    background: none; /* Arka planı kaldır */
-    border: none; /* Kenarlıkları kaldır */
-    color: #d1d1d1; /* Bağlantı rengi */
-    padding: 12px 20px; /* Aynı padding */
-    font-size: 0.95rem; /* Yazı boyutu */
-    display: flex;
-    align-items: center;
-    text-decoration: none; /* Alt çizgi yok */
-    border-radius: 5px; /* Yuvarlak köşeler */
-    transition: background-color 0.3s, color 0.3s; /* Geçiş efektleri */
-}
-
-    .nav-button:hover {
-        background-color: #34495e; /* Hover efekti ile arka plan rengi */
-        color: #ffffff; /* Hoverda beyaz renk */
-    }
-
-    .nav-button i {
-        font-size: 1.2rem; /* İkon boyutu */
-    }
-
-    .nav-button:focus {
-        outline: none; /* Focusda kenarlık yok */
-    }
-
-    .navbar-header {
-        text-align: center;
-    }
-
-    .nav-link {
-        justify-content: center;
-    }
-
-    .nav-button {
-        justify-content: center; /* Butonun içeriğini merkezle */
-    }
-
-    /*--------------------------------------------------------------------------------------------------------------YENİ*/
-/* Genel Ayarlar */
+﻿/* Genel Ayarlar */
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 50px auto;
+    padding: 20px;
 }
 
+/* Kart Tasarımı */
 .card {
     border-radius: 10px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
 }
 
 .card-header {
@@ -127,41 +30,53 @@
 }
 
 /* Tablo Tasarımı */
-.table {
+.randevu-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    font-size: 0.95rem;
+    text-align: left;
 }
 
-    .table th, .table td {
-        padding: 15px;
-        text-align: left;
-        font-size: 1rem;
-        border-bottom: 1px solid #ddd;
+    .randevu-table th, .randevu-table td {
+        border: 1px solid #ddd;
+        padding: 12px;
     }
 
-    .table th {
-        background-color: #f4f6f9;
-        color: #333;
+    .randevu-table th {
+        background-color: #2c3e50;
+        color: white;
         font-weight: bold;
+        text-align: center;
     }
 
-.table-striped tbody tr:nth-child(odd) {
-    background-color: #f9f9f9;
-}
+    .randevu-table tbody tr:nth-child(odd) {
+        background-color: #f9f9f9;
+    }
+
+    .randevu-table tbody tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+
+    .randevu-table tbody tr:hover {
+        background-color: #f4f6f9;
+        cursor: pointer;
+    }
 
 /* Butonlar */
 .btn {
-    padding: 8px 12px;
-    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 0.85rem;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    color: #fff;
+    text-align: center;
     transition: background-color 0.3s ease;
 }
 
 .btn-edit {
     background-color: #1abc9c;
-    color: #ffffff;
 }
 
     .btn-edit:hover {
@@ -170,11 +85,8 @@
 
 .btn-delete {
     background-color: #e74c3c;
-    color: #ffffff;
 }
 
     .btn-delete:hover {
         background-color: #c0392b;
     }
-
-

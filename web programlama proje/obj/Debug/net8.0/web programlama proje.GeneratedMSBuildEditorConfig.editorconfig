@@ -34,12 +34,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5QYW5lbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Admin/Calisanlar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FsaXNhbmxhci5jc2h0bWw=
+[C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/CalisanHizmet/Ekle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaXNhbkhpem1ldFxFa2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Calisan/Calisan.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaXNhblxDYWxpc2FuLmNzaHRtbA==
+[C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Calisan/CalisanEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaXNhblxDYWxpc2FuRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Calisan/Calisanlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaXNhblxDYWxpc2FubGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Hizmet/Hizmetler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGl6bWV0XEhpem1ldGxlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Home/Index.cshtml]
@@ -66,8 +74,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Randevu/AdminBekleyenRandevular.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFuZGV2dVxBZG1pbkJla2xleWVuUmFuZGV2dWxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Randevu/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFuZGV2dVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Randevu/KullaniciRandevular.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFuZGV2dVxLdWxsYW5pY2lSYW5kZXZ1bGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Randevu/Randevu.cshtml]

@@ -41,7 +41,8 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="userDropdown">
                             <li><a class="dropdown-item" asp-area="" asp-controller="Kullanici" asp-action="Profil">Profil</a></li>
-                            <li><a class="dropdown-item" asp-area="" asp-controller="Randevular" asp-action="Index">Randevularım</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Randevu" asp-action="Create">RandevuAl</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Randevu" asp-action="KullaniciRandevular">Randevularım</a></li>
                             <li>
                                 <form action="/Kullanici/Logout" method="post" class="d-inline">
                                     <button class="dropdown-item" type="submit">Çıkış Yap</button>

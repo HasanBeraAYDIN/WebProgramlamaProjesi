@@ -3,10 +3,10 @@
         <a href="#" class="navbar-brand d-block mb-0">Admin Panel</a>
     </div>
     <div class="nav flex-column">
-        <a asp-controller="Admin" asp-action="Calisanlar" class="nav-link active"><i class="bi bi-house-door-fill me-2"></i>Calisanlar</a>
-        <a asp-controller="Admin" asp-action="AdminPanel" class="nav-link"><i class="bi bi-people-fill me-2"></i>Hizmet Ekle</a>
-        <a asp-controller="Admin" asp-action="AdminPanel" class="nav-link"><i class="bi bi-gear-fill me-2"></i>Randevular</a>
-        <a asp-controller="Admin" asp-action="AdminPanel" class="nav-link"><i class="bi bi-bar-chart-line-fill me-2"></i>Randevu Onay</a>
+        <a asp-controller="Calisan" asp-action="Calisanlar" class="nav-link active"><i class="bi bi-house-door-fill me-2"></i>Calisanlar</a>
+        <a asp-controller="Hizmet" asp-action="Hizmetler" class="nav-link"><i class="bi bi-people-fill me-2"></i>Hizmetler</a>
+        <a asp-controller="Randevu" asp-action="AdminBekleyenRandevular" class="nav-link"><i class="bi bi-gear-fill me-2"></i>Bekleyen Randevular</a>
+        <a asp-controller="Admin" asp-action="AdminPanel" class="nav-link"><i class="bi bi-bar-chart-line-fill me-2"></i>TümRandevular</a>
         <a asp-controller="Admin" asp-action="AdminPanel" class="nav-link"><i class="bi bi-bar-chart-line-fill me-2"></i>Kullanıcı Ayarları</a>
         <form asp-action="Logout" asp-controller="Admin" method="post">
             <button class="nav-button" type="submit"><i class="bi bi-box-arrow-right me-2"></i>Logout</button>

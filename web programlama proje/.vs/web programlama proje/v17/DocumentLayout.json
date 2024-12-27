@@ -3,44 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\views\\randevu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:views\\randevu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\controllers\\randevucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:controllers\\randevucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\models\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:models\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\controllers\\calisanhizmetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:controllers\\calisanhizmetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\models\\calisanhizmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:models\\calisanhizmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\views\\randevu\\kullanicirandevular.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:views\\randevu\\kullanicirandevular.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\views\\shared\\_adminnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:views\\shared\\_adminnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\models\\calisan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:models\\calisan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\models\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:models\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\models\\hizmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:models\\hizmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|c:\\users\\hasanbera\\desktop\\web programlama proje\\web programlama proje\\wwwroot\\css\\adminrandevular.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9A013CFD-37E6-42B1-8570-2D512F4CED77}|web programlama proje.csproj|solutionrelative:wwwroot\\css\\adminrandevular.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +38,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Views\\Randevu\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Randevu\\Create.cshtml",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Views\\Randevu\\Create.cshtml",
-              "RelativeToolTip": "Views\\Randevu\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-25T21:23:44.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "KullaniciController.cs",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Controllers\\KullaniciController.cs",
-              "RelativeDocumentMoniker": "Controllers\\KullaniciController.cs",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Controllers\\KullaniciController.cs",
-              "RelativeToolTip": "Controllers\\KullaniciController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAswEYAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T20:43:40.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CalisanHizmet.cs",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Models\\CalisanHizmet.cs",
-              "RelativeDocumentMoniker": "Models\\CalisanHizmet.cs",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Models\\CalisanHizmet.cs",
-              "RelativeToolTip": "Models\\CalisanHizmet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T20:08:10.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Randevu.cs",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Models\\Randevu.cs",
-              "RelativeDocumentMoniker": "Models\\Randevu.cs",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Models\\Randevu.cs",
-              "RelativeToolTip": "Models\\Randevu.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T15:28:43.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RandevuController.cs",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Controllers\\RandevuController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RandevuController.cs",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Controllers\\RandevuController.cs",
-              "RelativeToolTip": "Controllers\\RandevuController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwEMAAAAAAAAAAAAAAA==",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T15:50:25.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Hizmet.cs",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Models\\Hizmet.cs",
-              "RelativeDocumentMoniker": "Models\\Hizmet.cs",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Models\\Hizmet.cs",
-              "RelativeToolTip": "Models\\Hizmet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T13:23:03.976Z",
+              "WhenOpened": "2024-12-27T02:04:33.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
+              "Title": "KullaniciRandevular.cshtml",
+              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Views\\Randevu\\KullaniciRandevular.cshtml",
+              "RelativeDocumentMoniker": "Views\\Randevu\\KullaniciRandevular.cshtml",
+              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Views\\Randevu\\KullaniciRandevular.cshtml",
+              "RelativeToolTip": "Views\\Randevu\\KullaniciRandevular.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-25T20:49:27.17Z",
+              "WhenOpened": "2024-12-27T01:49:12.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Models\\DataContext.cs",
-              "RelativeDocumentMoniker": "Models\\DataContext.cs",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Models\\DataContext.cs",
-              "RelativeToolTip": "Models\\DataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T20:31:53.919Z",
+              "DocumentIndex": 5,
+              "Title": "_AdminNavbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Views\\Shared\\_AdminNavbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AdminNavbar.cshtml",
+              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Views\\Shared\\_AdminNavbar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AdminNavbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-27T01:45:59.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Kullanici.cs",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Models\\Kullanici.cs",
-              "RelativeDocumentMoniker": "Models\\Kullanici.cs",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Models\\Kullanici.cs",
-              "RelativeToolTip": "Models\\Kullanici.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBsAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T15:27:50.286Z",
+              "Title": "AdminRandevular.css",
+              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\wwwroot\\css\\AdminRandevular.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\AdminRandevular.css",
+              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\wwwroot\\css\\AdminRandevular.css",
+              "RelativeToolTip": "wwwroot\\css\\AdminRandevular.css",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwCcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-27T01:42:27.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Calisan.cs",
-              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Models\\Calisan.cs",
-              "RelativeDocumentMoniker": "Models\\Calisan.cs",
-              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Models\\Calisan.cs",
-              "RelativeToolTip": "Models\\Calisan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABXAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "RandevuController.cs",
+              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Controllers\\RandevuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RandevuController.cs",
+              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Controllers\\RandevuController.cs",
+              "RelativeToolTip": "Controllers\\RandevuController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAmwHAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T22:28:39.477Z",
+              "WhenOpened": "2024-12-27T01:38:22.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalisanHizmetController.cs",
+              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Controllers\\CalisanHizmetController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CalisanHizmetController.cs",
+              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Controllers\\CalisanHizmetController.cs",
+              "RelativeToolTip": "Controllers\\CalisanHizmetController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T01:36:17.391Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "77fb0038-d476-4387-af4f-334607da1166",
+        "Display": 1,
+        "X": -2,
+        "Y": 19,
+        "Width": 1603,
+        "Height": 760,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KullaniciController.cs",
+              "DocumentMoniker": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Controllers\\KullaniciController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KullaniciController.cs",
+              "ToolTip": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\Controllers\\KullaniciController.cs",
+              "RelativeToolTip": "Controllers\\KullaniciController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wBkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T02:05:25.045Z",
               "EditorCaption": ""
             }
           ]

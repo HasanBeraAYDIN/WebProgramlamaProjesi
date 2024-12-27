@@ -1,0 +1,59 @@
+﻿/* Geniş Kapsayıcı */
+.container {
+    max-width: 1200px; /* Daha geniş bir kapsayıcı */
+    margin: 50px auto;
+    padding: 0 15px; /* Kenarlardan biraz boşluk */
+}
+
+/* Tablo Tasarımı */
+.randevu-table {
+    width: 100%; /* Tam genişlikte görünmesini sağlar */
+    border-collapse: collapse; /* Hücre kenarlarını birleştirir */
+    font-size: 1rem; /* Yazı boyutu */
+}
+
+    .randevu-table th, .randevu-table td {
+        padding: 12px 15px; /* Hücre içi boşluk */
+        text-align: left; /* Sol hizalama */
+        border: 1px solid #ddd; /* Kenarlık */
+    }
+
+    .randevu-table th {
+        background-color: #2c3e50; /* Başlık için koyu renk */
+        color: #ffffff; /* Yazı rengi */
+        font-weight: bold;
+    }
+
+    .randevu-table tr:nth-child(odd) {
+        background-color: #f9f9f9; /* Alternatif satır rengi */
+    }
+
+    .randevu-table tr:nth-child(even) {
+        background-color: #ffffff; /* Diğer satır rengi */
+    }
+
+/* Butonların Tasarımı */
+.btn {
+    padding: 8px 15px; /* Daha geniş butonlar */
+    font-size: 0.9rem; /* Buton yazı boyutu */
+    text-align: center; /* Ortalı içerik */
+    border-radius: 5px; /* Yuvarlatılmış köşeler */
+}
+
+.btn-edit {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+    .btn-edit:hover {
+        background-color: #16a085;
+    }
+
+.btn-delete {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+
+    .btn-delete:hover {
+        background-color: #c0392b;
+    }

@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\web programlama proje.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\wwwroot\\css\\AdminRandevular.css",
+      "PackagePath": "staticwebassets\\css\\AdminRandevular.css"
+    },
+    {
       "Id": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\wwwroot\\css\\Profil.css",
       "PackagePath": "staticwebassets\\css\\Profil.css"
+    },
+    {
+      "Id": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\wwwroot\\css\\Randevular.css",
+      "PackagePath": "staticwebassets\\css\\Randevular.css"
     },
     {
       "Id": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\wwwroot\\css\\adminLayout.css",

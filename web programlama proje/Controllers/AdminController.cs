@@ -27,16 +27,17 @@ namespace web_programlama_proje.Controllers
 
         public IActionResult AdminPanel()
         {
-          /*  var admin = HttpContext.Session.GetInt32("id");
 
-            if (string.IsNullOrEmpty(admin.ToString()))
+           var admin = HttpContext.Session.GetInt32("AdminId");
+
+         /*   if (string.IsNullOrEmpty(admin.ToString()))
             {
                 // Eğer kullanıcı giriş yapmamışsa, login sayfasına yönlendir
                 return RedirectToAction("Admin", "Admin");
             }
 
             // Kullanıcı giriş yaptıysa, profil bilgilerini getirebilirsiniz
-            var dogrulama = _dataContext.Adminler.FirstOrDefault(k => k.AdminId ==admin );
+            var dogrulama = _dataContext.Adminler.FirstOrDefault(k => k.AdminAd ==admin );
 
             if (dogrulama == null)
             {
@@ -49,6 +50,7 @@ namespace web_programlama_proje.Controllers
         [HttpPost]
         public async Task<IActionResult> Admin(string AdminAd, string AdminPassword)
         {
+            HttpContext.Session.Clear();
 
             var admin = await _dataContext.Adminler
        .FirstOrDefaultAsync(k => k.AdminAd == AdminAd);

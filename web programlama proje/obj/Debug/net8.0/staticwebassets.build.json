@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ONVGAgyE7eGCKeTopbiZ+4ar72Jh7V7hy5sPtzmmVyk=",
+  "Hash": "rzZQRjwUYPEWQma+SZdA+tp/9QL5Tw6IEYPMhRV8a7M=",
   "Source": "web programlama proje",
   "BasePath": "_content/web programlama proje",
   "Mode": "Default",
@@ -74,6 +74,25 @@
       "OriginalItemSpec": "wwwroot\\css\\adminLayout.css"
     },
     {
+      "Identity": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\wwwroot\\css\\AdminRandevular.css",
+      "SourceId": "web programlama proje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\wwwroot\\",
+      "BasePath": "_content/web programlama proje",
+      "RelativePath": "css/AdminRandevular.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AdminRandevular.css"
+    },
+    {
       "Identity": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\wwwroot\\css\\Profil.css",
       "SourceId": "web programlama proje",
       "SourceType": "Discovered",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Profil.css"
+    },
+    {
+      "Identity": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\wwwroot\\css\\Randevular.css",
+      "SourceId": "web programlama proje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\wwwroot\\",
+      "BasePath": "_content/web programlama proje",
+      "RelativePath": "css/Randevular.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Randevular.css"
     },
     {
       "Identity": "C:\\Users\\hasanbera\\Desktop\\web programlama proje\\web programlama proje\\wwwroot\\css\\site.css",
