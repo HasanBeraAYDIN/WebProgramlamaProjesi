@@ -1,180 +1,174 @@
-﻿/* Admin Panel Navbar */
-.navbar-custom {
-    background-color: #2c3e50; /* Koyu Mavi-Gri */
-    width: 240px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding-top: 1rem;
-    border-right: 1px solid #1a242f;
+﻿/* Admin Layout Genel */
+.admin-layout {
+    display: flex !important;
+    flex-direction: row !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    overflow: hidden !important; /* Taşmayı önler */
 }
 
-.navbar-header .navbar-brand {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #ffffff;
-    text-transform: uppercase;
+/* Admin Navbar */
+.admin-navbar {
+    width: 220px !important; /* Sabit genişlik */
+    height: 100vh !important; /* Tam ekran yüksekliği */
+    background-color: #2c3e50 !important; /* Koyu mavi-gri */
+    color: white !important; /* Beyaz yazı rengi */
+    display: flex !important;
+    flex-direction: column !important; /* Dikey hizalama */
+    padding: 20px 10px !important;
+    position: fixed !important; /* Sol tarafa sabitler */
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 1000 !important; /* Navbar'ın her zaman üstte kalmasını sağlar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Hafif gölge efekti */
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+    font-family: Arial, sans-serif !important;
 }
 
-    .navbar-header .navbar-brand:hover {
-        color: #adb5bd;
-        text-decoration: none;
+    /* Navbar Başlık */
+    .admin-navbar .navbar-header {
+        text-align: center !important;
+        margin-bottom: 20px !important;
+        font-size: 1.5rem !important;
+        font-weight: bold !important;
+        text-transform: uppercase !important;
+        color: white !important;
     }
 
-/* Nav Link */
-.nav-link {
-    color: #d1d1d1;
-    padding: 12px 20px;
-    font-size: 0.95rem;
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
+    /* Navbar Link */
+    .admin-navbar .nav-link {
+        color: white !important; /* Beyaz yazı */
+        text-decoration: none !important;
+        padding: 12px 15px !important;
+        margin: 8px 0 !important;
+        font-size: 1rem !important;
+        text-align: left !important;
+        display: block !important;
+        border-radius: 5px !important;
+        transition: background-color 0.3s ease, color 0.3s ease !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+        .admin-navbar .nav-link:hover {
+            background-color: rgba(26, 188, 156, 0.1) !important; /* Hafif yeşil hover efekti */
+            color: #1abc9c !important; /* Açık yeşil hover yazı rengi */
+        }
+
+/* Admin İçerik Alanı */
+.admin-content {
+    margin-left: 220px !important; /* Navbar genişliği kadar sağa boşluk */
+    padding: 40px !important; /* İçeriği rahatlatmak için padding */
+    background-color: #ffffff !important; /* Beyaz arka plan */
+    color: #333 !important; /* Metin rengi */
+    width: calc(100% - 220px) !important; /* Navbar dışında kalan alan */
+    min-height: 100vh !important; /* Tüm ekranı kaplar */
+    overflow-y: auto !important; /* Dikey kaydırma */
+    overflow-x: hidden !important; /* Yatay taşmayı önler */
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* İçeriği yatayda ortala */
+    justify-content: flex-start !important; /* İçeriği dikeyde başlat */
 }
 
-    .nav-link.active {
-        background-color: #1abc9c;
-        color: #ffffff !important;
-    }
-
-    .nav-link:hover {
-        background-color: #34495e;
-        color: #ffffff;
-    }
-
-    .nav-link i {
-        font-size: 1.2rem;
-    }
-
-.navbar-custom .nav-link:not(.active) i {
-    color: #adb5bd;
+/* İçerik Kutusu (Tablo ve Form) */
+.content-box {
+    width: 80% !important; /* Genişliği ekranın %80'i kadar yap */
+    max-width: 1200px !important; /* Maksimum genişlik 1200px */
+    margin: 20px auto !important; /* Ortalamayı sağla */
+    padding: 20px !important;
+    border: 1px solid #ddd !important; /* Hafif gri kenarlık */
+    border-radius: 8px !important; /* Köşeleri yumuşat */
+    background-color: #f9f9f9 !important; /* Hafif gri arka plan */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05) !important; /* Hafif gölge efekti */
 }
 
-.navbar-custom .nav-link.active i {
-    color: #ffffff;
-}
-
-/* Nav Button as Link */
-.nav-button {
-    width:100%;
-    background: none; /* Arka planı kaldır */
-    border: none; /* Kenarlıkları kaldır */
-    color: #d1d1d1; /* Bağlantı rengi */
-    padding: 12px 20px; /* Aynı padding */
-    font-size: 0.95rem; /* Yazı boyutu */
-    display: flex;
-    align-items: center;
-    text-decoration: none; /* Alt çizgi yok */
-    border-radius: 5px; /* Yuvarlak köşeler */
-    transition: background-color 0.3s, color 0.3s; /* Geçiş efektleri */
-}
-
-    .nav-button:hover {
-        background-color: #34495e; /* Hover efekti ile arka plan rengi */
-        color: #ffffff; /* Hoverda beyaz renk */
-    }
-
-    .nav-button i {
-        font-size: 1.2rem; /* İkon boyutu */
-    }
-
-    .nav-button:focus {
-        outline: none; /* Focusda kenarlık yok */
-    }
-
-    .navbar-header {
-        text-align: center;
-    }
-
-    .nav-link {
-        justify-content: center;
-    }
-
-    .nav-button {
-        justify-content: center; /* Butonun içeriğini merkezle */
-    }
-
-    /*--------------------------------------------------------------------------------------------------------------YENİ*/
-/* Genel Ayarlar */
-.container {
-    max-width: 800px;
-    margin: 50px auto;
-}
-
-.card {
-    border-radius: 10px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
-
-.card-header {
-    background-color: #2c3e50;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-}
-
-    .card-header h3 {
-        margin: 0;
-        font-size: 1.8rem;
-        font-weight: bold;
-    }
-
-.card-body {
-    padding: 20px;
-}
-
-/* Tablo Tasarımı */
+/* Tablo Stilleri */
 .table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+    border-radius: 0.5rem !important; /* Tablonun köşelerini yuvarla */
+    overflow: hidden !important; /* Kenar yuvarlama etkisi için taşmayı gizle */
+    margin: 20px 0 !important; /* Üst ve alt boşluk */
+    width: 100% !important;
 }
-
-    .table th, .table td {
-        padding: 15px;
-        text-align: left;
-        font-size: 1rem;
-        border-bottom: 1px solid #ddd;
-    }
 
     .table th {
-        background-color: #f4f6f9;
-        color: #333;
-        font-weight: bold;
+        background-color: #2c3e50 !important; /* Navbar ile aynı ton */
+        color: white !important; /* Beyaz yazı */
+        text-align: center !important;
     }
 
-.table-striped tbody tr:nth-child(odd) {
-    background-color: #f9f9f9;
-}
+    .table td {
+        vertical-align: middle !important; /* Hücre içeriğini ortala */
+        text-align: center !important; /* Veri hücrelerini ortala */
+    }
+
+    .table tr:hover {
+        background-color: #f1f1f1 !important; /* Hover efekti için açık gri arka plan */
+    }
 
 /* Butonlar */
 .btn {
-    padding: 8px 12px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    padding: 8px 15px!important; /* Daha geniş butonlar */
+    font-size: 0.9rem!important; /* Buton yazı boyutu */
+    text-align: center!important; /* Ortalı içerik */
+    border-radius: 5px!important; /* Yuvarlatılmış köşeler */
 }
 
-.btn-edit {
-    background-color: #1abc9c;
-    color: #ffffff;
+
+.btn-primary {
+    padding-top:10px;
+    /***/ background-color: #2c3e50 !important; /* Navbar renkleriyle uyumlu */
+    border-color: #1abc9c !important; /* Aynı ton */
+    color: white !important;
 }
 
-    .btn-edit:hover {
-        background-color: #16a085;
+    .btn-primary:hover {
+        background-color: #16a085 !important; /* Daha koyu yeşil hover */
+        border-color: #16a085 !important;
     }
 
-.btn-delete {
+.btn-danger {
+    background-color: #e74c3c !important; /* Navbar uyumlu kırmızı */
+    /*border-color: #e74c3c !important;*/
+    color: white !important;
+}
+
+    .btn-danger:hover {
+        background-color: #c0392b !important; /* Daha koyu kırmızı hover */
+        border-color: #c0392b !important;
+    }
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+    .admin-navbar {
+        width: 100% !important;
+        height: auto !important;
+        position: static !important;
+    }
+
+    .admin-content {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+
+    .content-box {
+        width: 95% !important; /* Mobilde daha dar görünüm */
+    }
+
+    .table {
+        font-size: 0.875rem !important; /* Küçük ekranlarda daha küçük yazı */
+    }
+}
+/* Butonlar Arası Boşluk */
+.btn-lg {
+    margin-bottom: 15px !important; /* Butonların altına boşluk ekle */
+}
+
+.text-center .btn-lg:not(:last-child) {
+    margin-right: 10px !important; /* Yatayda da biraz boşluk ekle */
+}
+
+.btn btn-delete {
     background-color: #e74c3c;
     color: #ffffff;
 }
-
-    .btn-delete:hover {
-        background-color: #c0392b;
-    }
-
-

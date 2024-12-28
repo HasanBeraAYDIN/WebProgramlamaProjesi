@@ -1,0 +1,30 @@
+﻿@model web_programlama_proje.Models.Hizmet
+
+@{
+    ViewData["Title"] = "Hizmet Ekle";
+    Layout = "_AdminLayout";
+}
+<h2>Hizmet Ekle</h2>
+
+<div class="admin-content">
+    <div class="content-box">
+<form asp-action="Ekle" method="post">
+    <div class="form-group">
+        <label asp-for="HizmetAd"></label>
+        <input asp-for="HizmetAd" class="form-control" />
+        <span asp-validation-for="HizmetAd" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HimzetUcret"></label>
+        <input asp-for="HimzetUcret" class="form-control" />
+        <span asp-validation-for="HimzetUcret" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
+        </div>
+ </div >
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

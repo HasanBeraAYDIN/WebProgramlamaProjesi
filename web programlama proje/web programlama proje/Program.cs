@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using System.Net.Http;
 using web_programlama_proje.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<DataContext>(options =>
     options.UseSqlite(connectionString));
+
+builder.Services.AddHttpClient();
+
+builder.Services.AddControllersWithViews();
+
+using var httpClient = new HttpClient();
+httpClient.DefaultRequestHeaders.Add("x-api-key", "YOUR_API_KEY");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

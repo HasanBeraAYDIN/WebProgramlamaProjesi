@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Randevular";
+}
+
+<h2>Randevular</h2>
+
+<table id="randevularTable">
+    <thead>
+        <tr>
+            <th>Randevu ID</th>
+            <th>Randevu Tarihi</th>
+            <th>Durum</th>
+            <th>Calisan</th>
+            <th>Hizmet</th>
+            <th>Kullanici</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Veriler buraya AJAX ile yüklenecek -->
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // API'den veri al
+            $.ajax({
+                url: '/api/RandevuApi',  // API endpoint
+                type: 'GET',
+                success: function (data) {
+                    // Gelen verileri tabloya ekle
+                    var rows = '';
+                    $.each(data, function (index, randevu) {
+                        rows += `<tr>
+                                    <td>${randevu.randevuId}</td>
+                                    <td>${new Date(randevu.randevuTarih).toLocaleString()}</td>
+                                    <td>${randevu.durum}</td>
+                                    <td>${randevu.calisan?.ad || 'N/A'}</td>
+                                    <td>${randevu.hizmet?.ad || 'N/A'}</td>
+                                    <td>${randevu.kullanici?.ad || 'N/A'}</td>
+                                  </tr>`;
+                    });
+                    $('#randevularTable tbody').html(rows);
+                },
+                error: function (error) {
+                    console.error("Error fetching data: ", error);
+                }
+            });
+        });
+    </script>
+}

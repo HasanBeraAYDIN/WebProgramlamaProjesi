@@ -1,0 +1,76 @@
+﻿.card {
+    border-radius: 12px; /* Yuvarlatılmış köşeler */
+    background-color: #ffffff; /* Beyaz arka plan */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Daha büyük ve yumuşak gölge */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover animasyonu */
+}
+
+    .card:hover {
+        transform: translateY(-5px); /* Kartı biraz yukarı kaydır */
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Hover sırasında daha belirgin gölge */
+    }
+
+.card-header {
+    background-color: #2c3e50; /* Koyu mavi gri */
+    color: #fff; /* Beyaz yazı rengi */
+    padding: 15px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    border-top-left-radius: 12px; /* Yuvarlatılmış köşe */
+    border-top-right-radius: 12px; /* Yuvarlatılmış köşe */
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #f9f9f9; /* Açık gri arka plan */
+    font-size: 1rem;
+}
+
+    .card-body p {
+        font-size: 1rem;
+        color: #555; /* Daha yumuşak gri yazı rengi */
+        line-height: 1.5;
+    }
+
+        .card-body p strong {
+            color: #2c3e50; /* Başlık renklerini koyu mavi gri yapmak */
+        }
+
+/* Başlıkları ortalamak */
+.text-center {
+    text-align: center;
+}
+
+/* Uyarı mesajları */
+.alert-warning {
+    background-color: #f39c12; /* Uyarı için modern sarı */
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Kartlar arasındaki boşlukları ayarlamak */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Kartlar arasında 20px boşluk */
+}
+
+/* Kartın genişliğini ve sıralamayı kontrol et */
+.col-md-6 {
+    flex: 1 0 48%; /* Orta boyutlu ekranlarda kartları 2 kolon halinde düzenle */
+}
+
+.col-lg-4 {
+    flex: 1 0 30%; /* Büyük ekranlarda kartları 3 kolon halinde düzenle */
+}
+.randevu-item {
+    background-color: #f8f9fa; /* Açık gri arka plan */
+    transition: background-color 0.3s; /* Geçiş efekti */
+}
+
+    .randevu-item:hover {
+        background-color: #e2e6ea; /* Hover efekti */
+    }

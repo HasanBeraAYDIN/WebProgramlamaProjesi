@@ -1,0 +1,47 @@
+﻿@model web_programlama_proje.Models.YapayZeka
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapay Zeka ile Saç Modeli</title>
+</head>
+<body>
+    <h1>Yapay Zeka ile Saç Modelinizi Belirleyin</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        <div>
+            <label for="Img">Resiminizi Buraya Yükle:</label>
+            <input type="file" name="Img" id="Img" required />
+        </div>
+        <div>
+            <label for="Acıklama">NasılBir Model Denemek İstersiniz Açıklaması:</label>
+            <input type="text" name="Acıklama" id="Acıklama" required placeholder="Örn: modern kısa saç modeli" />
+        </div>
+        <button type="submit">Gönder</button>
+    </form>
+
+    <!-- Hatalar varsa burada gösterilir -->
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div style="color: red;">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p>@error.ErrorMessage</p>
+            }
+        </div>
+    }
+
+    <!-- İşlenen resim URL'si varsa sonuç görüntülenir -->
+    @if (!string.IsNullOrEmpty(Model.ApiResimUrl))
+    {
+        <h2>Sonuç</h2>
+        <img src="@Model.ApiResimUrl" alt="Sonuç Resmi" style="max-width: 100%; height: auto;" />
+        <p>
+            İşlenmiş Resmi Görüntüle:
+            <a href="@Model.ApiResimUrl" target="_blank">@Model.ApiResimUrl</a>
+        </p>
+    }
+</body>
+</html>

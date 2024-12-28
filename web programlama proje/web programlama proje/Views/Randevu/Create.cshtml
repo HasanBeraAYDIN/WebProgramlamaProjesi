@@ -1,0 +1,93 @@
+﻿@model web_programlama_proje.Models.Randevu
+@{
+    ViewData["Title"] = "Randevu Al";
+    var Id = Context.Session.GetInt32("KullaniciId");
+}
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div style="background:#2c3e50" class="card-header text-white">
+            <h3 class="card-title text-center">Randevu Al</h3>
+        </div>
+        <div class="card-body">
+            <form asp-action="Create" asp-controller="Randevu" method="post">
+                <input type="hidden" name="KullaniciId" value="@Id" />
+
+                <!-- Çalışan Seçimi -->
+                <div class="form-group mb-3">
+                    <label asp-for="CalisanId" class="form-label">Çalışan</label>
+                    <select id="CalisanId" asp-for="CalisanId" asp-items="@ViewBag.Calisanlar" class="form-select">
+                        <option value="">Lütfen çalışan seçiniz</option>
+                    </select>
+                </div>
+
+                <!-- Hizmet Seçimi -->
+                <div class="form-group mb-3">
+                    <label asp-for="HizmetId" class="form-label">Hizmet</label>
+                    <select id="HizmetId" asp-for="HizmetId" class="form-select">
+                        <option value="">Lütfen önce çalışan seçiniz</option>
+                    </select>
+                </div>
+
+                <!-- Tarih ve Saat -->
+                <div class="form-group mb-3">
+                    <label asp-for="RandevuTarih" class="form-label">Tarih ve Saat</label>
+                    <input asp-for="RandevuTarih" type="datetime-local" class="form-control" id="RandevuTarih" />
+                </div>
+
+                <!-- Gönder Butonu -->
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">Randevuyu Kaydet</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Çalışan seçildiğinde tetiklenecek olay
+        $('#CalisanId').change(function () {
+            var CalisanId = $('#CalisanId').val(); // Dropdown'dan ID'yi alıyoruz
+            var HizmetDropdown = $('#HizmetId');
+
+            // Hizmet dropdown'ını temizliyoruz
+            HizmetDropdown.empty();
+
+            if (CalisanId) {
+                // AJAX isteği gönderiyoruz
+                $.ajax({
+                    url: '/Randevu/GetHizmetlerByCalisanId', // Controller'daki metot URL'si
+                    type: 'GET',
+                    data: { CalisanId: CalisanId },
+                    success: function (response) {
+                        // Gelen verilerle dropdown'u dolduruyoruz
+                        HizmetDropdown.append('<option value="">Lütfen hizmet seçiniz</option>');
+                        $.each(response, function (index, item) {
+                            HizmetDropdown.append('<option value="' + item.hizmetId + '">' + item.hizmetAd + '</option>');
+                        });
+                    },
+                    error: function () {
+                        alert("Hizmetler yüklenirken bir hata oluştu.");
+                    }
+                });
+            } else {
+                // Eğer çalışan seçilmezse, dropdown'da hiçbir şey gösterme
+                HizmetDropdown.append('<option value="">Lütfen önce çalışan seçiniz</option>');
+            }
+        });
+
+        // Tarih ve saat seçimini kontrol et
+        $('#RandevuTarih').on('change', function () {
+            var selectedDateTime = new Date($(this).val());
+            var selectedHours = selectedDateTime.getHours();
+
+            // Sabah 9 ve akşam 7 arasını kontrol et
+            if (selectedHours < 10 || selectedHours >= 19) {
+                alert("Çalışma Saatlerimiz sabah 10 ile akşam 7 arasındadır lütfen uygun bir saat seçiniz");
+                $(this).val(''); // Geçersiz seçimi temizle
+            }
+        });
+    });
+</script>

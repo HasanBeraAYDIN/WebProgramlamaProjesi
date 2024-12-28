@@ -18,6 +18,14 @@ namespace web_programlama_proje.Controllers
         }
         public IActionResult Duzenle()
         {
+            var kullaniciEmail = HttpContext.Session.GetString("KullaniciEmail");
+
+            if (string.IsNullOrEmpty(kullaniciEmail))
+            {
+                // Eğer kullanıcı giriş yapmamışsa, login sayfasına yönlendir
+                return RedirectToAction("Login", "Kullanici");
+            }
+
             return View();
         }
 
@@ -28,14 +36,6 @@ namespace web_programlama_proje.Controllers
             if (string.IsNullOrEmpty(kullaniciEmail))
             {
                 // Eğer kullanıcı giriş yapmamışsa, login sayfasına yönlendir
-                return RedirectToAction("Login", "Kullanici");
-            }
-
-            // Kullanıcı giriş yaptıysa, profil bilgilerini getirebilirsiniz
-            var user = _dataContext.Kullanicilar.FirstOrDefault(k => k.KullaniciEmail == kullaniciEmail);
-
-            if (user == null)
-            {
                 return RedirectToAction("Login", "Kullanici");
             }
 
@@ -68,8 +68,9 @@ namespace web_programlama_proje.Controllers
 
             if (Password == user.Password)
             {
-                
+                Console.WriteLine($"Kullanıcı ID: {user.KullaniciId}"); // Debug için
                 Console.WriteLine($"Giriş başarılı: {user.KullaniciEmail}");
+                HttpContext.Session.SetInt32("KullaniciId", user.KullaniciId);
                 HttpContext.Session.SetString("KullaniciAd", user.KullaniciAd);
                 HttpContext.Session.SetString("KullaniciEmail", user.KullaniciEmail);
                 return RedirectToAction("Index", "Home");
@@ -122,8 +123,16 @@ namespace web_programlama_proje.Controllers
 
         public async Task<IActionResult> Duzenle(string YeniAd, string YeniEmail)
         {
-            // Session'dan giriş yapmış kullanıcının Email veya ID bilgisini alıyoruz.
             var sessionEmail = HttpContext.Session.GetString("KullaniciEmail");
+           // var kullaniciEmail = HttpContext.Session.GetString("KullaniciEmail");
+
+            if (string.IsNullOrEmpty(sessionEmail))
+            {
+                // Eğer kullanıcı giriş yapmamışsa, login sayfasına yönlendir
+                return RedirectToAction("Login", "Kullanici");
+            }
+            // Session'dan giriş yapmış kullanıcının Email veya ID bilgisini alıyoruz.
+            
             if (string.IsNullOrEmpty(sessionEmail))
             {
                 Console.WriteLine("kullanıcı email boş");

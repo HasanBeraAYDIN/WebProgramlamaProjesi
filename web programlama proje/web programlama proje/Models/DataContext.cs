@@ -10,5 +10,6 @@ namespace web_programlama_proje.Models
         public DbSet<Calisan> Calisanlar => Set<Calisan>();
         public DbSet<Hizmet> Hizmetler => Set<Hizmet>();
         public DbSet<Randevu> Randevular => Set<Randevu>();
+        public DbSet<CalisanHizmet> calisanHizmet => Set<CalisanHizmet>();
     }
 }

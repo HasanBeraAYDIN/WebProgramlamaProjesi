@@ -27,8 +27,6 @@ namespace web_programlama_proje.Models
         [Display(Name = "Şifreyi Onayla")]
         public required string SifreOnay { get; set; }
 
-        public List<Randevu> RandevuListesi { get; set; }
-
 
     }
 }

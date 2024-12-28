@@ -4,8 +4,46 @@
     ViewData["Title"] = "Home Page";
     string Ad = Context.Session.GetString("KullaniciAd");
 }
+<body>
+    <div class="container mt-5">
+        <div class="jumbotron text-center bg-light shadow-sm p-5 rounded">
+            <h1 class="display-4">Hoş Geldiniz, @Ad!</h1>
+            <p class="lead">Kuaförlük hizmetlerinde kalite ve güvenin adresine hoş geldiniz.</p>
+            <hr class="my-4">
+            <p class="mb-4">Sizlere en iyi hizmeti sunmak için buradayız. Hemen randevunuzu oluşturun veya hizmetlerimizi keşfedin!</p>
+            <a class="btn btn-primary btn-lg me-2" href="Home/Hizmetlerimiz" role="button">Hizmetlerimiz</a>
+            <a class="btn btn-secondary btn-lg" asp-action="Create" , asp-controller="Randevu" role="button">Randevu Al</a>
+        </div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome @Ad</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+        <div class="row mt-5 g-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0">
+                    <img src="/images/haircut.jpg" class="card-img-top rounded-top" alt="Saç Kesimi">
+                    <div class="card-body">
+                        <h5 class="card-title">Saç Kesimi</h5>
+                        <p class="card-text">Profesyonel ekiplerimizle tarzınızı yansıtacak saç kesimleri.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0">
+                    <img src="/images/coloring.jpg" class="card-img-top rounded-top" alt="Saç Boyama">
+                    <div class="card-body">
+                        <h5 class="card-title">Saç Boyama</h5>
+                        <p class="card-text">Son trend renkler ve tekniklerle mükemmel sonuçlar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0">
+                    <img src="/images/skincare.jpg" class="card-img-top rounded-top" alt="Cilt Bakımı">
+                    <div class="card-body">
+                        <h5 class="card-title">Cilt Bakımı</h5>
+                        <p class="card-text">Cildinize hak ettiği özeni göstermek için özel bakımlar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+

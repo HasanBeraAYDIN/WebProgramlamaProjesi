@@ -46,11 +46,7 @@ namespace web_programlama_proje.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("CalisanUzmanlik")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("UygunSaatler")
+                    b.Property<string>("CalisanEmail")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
@@ -59,20 +55,38 @@ namespace web_programlama_proje.Migrations
                     b.ToTable("Calisanlar");
                 });
 
+            modelBuilder.Entity("web_programlama_proje.Models.CalisanHizmet", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("CalisanId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("HizmetId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CalisanId");
+
+                    b.HasIndex("HizmetId");
+
+                    b.ToTable("calisanHizmet");
+                });
+
             modelBuilder.Entity("web_programlama_proje.Models.Hizmet", b =>
                 {
                     b.Property<int>("HizmetId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("HizmetAd")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("HizmetFiyat")
+                    b.Property<int>("HimzetUcret")
                         .HasColumnType("INTEGER");
 
-                    b.Property<DateTime>("HizmetTarih")
+                    b.Property<string>("HizmetAd")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("HizmetId");
@@ -124,7 +138,7 @@ namespace web_programlama_proje.Migrations
                     b.Property<int>("HizmetId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("MusteriId")
+                    b.Property<int>("KullaniciId")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("RandevuTarih")
@@ -136,9 +150,28 @@ namespace web_programlama_proje.Migrations
 
                     b.HasIndex("HizmetId");
 
-                    b.HasIndex("MusteriId");
+                    b.HasIndex("KullaniciId");
 
                     b.ToTable("Randevular");
+                });
+
+            modelBuilder.Entity("web_programlama_proje.Models.CalisanHizmet", b =>
+                {
+                    b.HasOne("web_programlama_proje.Models.Calisan", "Calisan")
+                        .WithMany("Hizmetler")
+                        .HasForeignKey("CalisanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("web_programlama_proje.Models.Hizmet", "Hizmet")
+                        .WithMany("Calisanlar")
+                        .HasForeignKey("HizmetId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Calisan");
+
+                    b.Navigation("Hizmet");
                 });
 
             modelBuilder.Entity("web_programlama_proje.Models.Randevu", b =>
@@ -155,9 +188,9 @@ namespace web_programlama_proje.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("web_programlama_proje.Models.Kullanici", "Musteri")
-                        .WithMany("RandevuListesi")
-                        .HasForeignKey("MusteriId")
+                    b.HasOne("web_programlama_proje.Models.Kullanici", "Kullanici")
+                        .WithMany("KullaniciRandevular")
+                        .HasForeignKey("KullaniciId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -165,17 +198,24 @@ namespace web_programlama_proje.Migrations
 
                     b.Navigation("Hizmet");
 
-                    b.Navigation("Musteri");
+                    b.Navigation("Kullanici");
                 });
 
             modelBuilder.Entity("web_programlama_proje.Models.Calisan", b =>
                 {
+                    b.Navigation("Hizmetler");
+
                     b.Navigation("Randevular");
+                });
+
+            modelBuilder.Entity("web_programlama_proje.Models.Hizmet", b =>
+                {
+                    b.Navigation("Calisanlar");
                 });
 
             modelBuilder.Entity("web_programlama_proje.Models.Kullanici", b =>
                 {
-                    b.Navigation("RandevuListesi");
+                    b.Navigation("KullaniciRandevular");
                 });
 #pragma warning restore 612, 618
         }

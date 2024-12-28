@@ -1,0 +1,36 @@
+﻿@model List<global::web_programlama_proje.Models.RandevuViewModel>
+
+
+@{
+    ViewData["Title"] = "Randevu Listesi";
+    Layout = "_AdminLayout";
+}
+
+<div class="container">
+    <h3>Tüm Randevular</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Randevu ID</th>
+                <th>Tarih</th>
+                <th>Durum</th>
+                <th>Çalışan</th>
+                <th>Hizmet</th>
+                <th>Kullanıcı</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var randevu in Model)
+            {
+                <tr>
+                    <td>@randevu.RandevuId</td>
+                    <td>@randevu.RandevuTarih</td>
+                    <td>@randevu.Durum</td>
+                    <td>@randevu.CalisanAd</td>
+                    <td>@randevu.HizmetAd</td>
+                    <td>@randevu.KullaniciAd</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

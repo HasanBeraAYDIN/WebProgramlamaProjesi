@@ -40,10 +40,58 @@ button.accept-policy[b-dlmurrlsj4] {
   line-height: inherit;
 }
 
-.footer[b-dlmurrlsj4] {
+/*.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}*/
+.footer-custom[b-dlmurrlsj4] {
+    background-color: #2c3e50; /* Navbar ile uyumlu koyu mavi-gri */
+    color: #ffffff; /* Beyaz yazı */
+    padding: 40px 0;
 }
+
+    .footer-custom .footer-column[b-dlmurrlsj4] {
+        margin-bottom: 20px;
+    }
+
+    .footer-custom h5[b-dlmurrlsj4] {
+        font-size: 1.2rem;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+
+    .footer-custom a[b-dlmurrlsj4] {
+        color: #1abc9c; /* Modern yeşil link rengi */
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        .footer-custom a:hover[b-dlmurrlsj4] {
+            color: #ffffff; /* Hover durumunda beyaz renk */
+        }
+
+    .footer-custom .social-icons a[b-dlmurrlsj4] {
+        color: #ffffff;
+        margin: 10px 0; /* Dikey boşluk */
+        font-size: 1.8rem; /* Daha büyük ikon */
+        display: block !important; /* Alt alta gelmesi için */
+        transition: color 0.3s ease;
+    }
+
+        .footer-custom .social-icons a:hover[b-dlmurrlsj4] {
+            color: #1abc9c;
+        }
+
+    .footer-custom .quick-links .btn[b-dlmurrlsj4] {
+        font-size: 0.9rem !important; /* Küçük buton boyutu */
+        padding: 6px 12px !important; /* Daha küçük iç boşluk */
+        margin: 5px 0 !important; /* Dikey boşluk */
+        background-color: #1abc9c !important; /* Buton rengi */
+        color: #ffffff !important; /* Yazı rengi */
+        border: none !important; /* Kenar kaldırma */
+        border-radius: 5px !important; /* Yuvarlak köşeler */
+        transition: background-color 0.3s ease !important;
+    }

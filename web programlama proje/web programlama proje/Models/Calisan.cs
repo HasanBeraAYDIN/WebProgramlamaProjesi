@@ -6,11 +6,10 @@ namespace web_programlama_proje.Models
     {
         [Key]
         public int CalisanId { get; set; }
-        public string CalisanAd { get; set; }
-       // public string CalisanUzmanlik { get; set; }
-        public string UygunSaatler { get; set; }
-        public ICollection<Hizmet> Hizmetler { get; set; }
-        public List<Randevu> Randevular {  get; set; }
+        public string CalisanAd {  get; set; }
+        public string CalisanEmail { get; set; }
+        public List<CalisanHizmet> Hizmetler { get; set; } = new List<CalisanHizmet>();
+        public List<Randevu> Randevular { get; set; } = new List<Randevu>();
 
     }
 }

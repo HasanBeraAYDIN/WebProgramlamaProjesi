@@ -1,0 +1,91 @@
+﻿@model IEnumerable<web_programlama_proje.Models.Calisan>
+
+@{
+    ViewData["Title"] = "Çalışan Listesi";
+    Layout = "_AdminLayout";
+}
+
+<div class="admin-content">
+    <div class="content-box">
+        <h1 class="text-center mb-4">Çalışanlar Listesi</h1>
+
+        <div class="table-responsive">
+            <table class="table table-striped table-hover table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Ad</th>
+                        <th>Email</th>
+                        <th>İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var calisan in Model)
+                        {
+                            <tr>
+                                <td>@calisan.CalisanId</td>
+                                <td>@calisan.CalisanAd</td>
+                                <td>@calisan.CalisanEmail</td>
+                                <td>
+                                    <a href="@Url.Action("Sil", "Calisan", new { id = calisan.CalisanId })" class="btn btn-danger btn-sm" title="Sil">Sil</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="4" class="text-center">Hiç çalışan bulunamadı.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="@Url.Action("CalisanEkle", "Calisan")" class="btn btn-primary btn-lg">Çalışan Ekle</a>
+            <a href="@Url.Action("Ekle", "CalisanHizmet")" class="btn btn-primary btn-lg">Çalışanları Düzenle</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .table {
+        border-radius: 0.5rem; /* Tablonun köşelerini yuvarla */
+        overflow: hidden; /* Kenar yuvarlama etkisi için taşmayı gizle */
+    }
+
+        .table th {
+            background-color: #343a40; /* Koyu arka plan rengi */
+            color: white; /* Yazı rengi beyaz */
+        }
+
+        .table td {
+            vertical-align: middle; /* Hücre içeriğini ortala */
+        }
+
+        .table td {
+            text-align: center; /* Veri hücrelerini ortala */
+        }
+
+        .table tr:hover {
+            background-color: #f1f1f1; /* Hover efekti için açık gri arka plan */
+        }
+
+    .btn {
+        margin: 0 5px; /* Butonlar arasında boşluk bırak */
+    }
+
+    .btn-danger {
+        
+        background-color: #dc3545; /* Kırmızı arka plan rengi */
+        border-color: #dc3545; /* Kırmızı kenar rengi */
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333; /* Hover durumunda daha koyu kırmızı */
+            border-color: #bd2130; /* Hover durumunda daha koyu kırmızı kenar */
+        }
+</style>

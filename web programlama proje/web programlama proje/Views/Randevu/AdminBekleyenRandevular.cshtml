@@ -1,0 +1,49 @@
+﻿@model IEnumerable<web_programlama_proje.Models.Randevu>
+
+@{
+    ViewData["Title"] = "Çalışan Listesi";
+     Layout = "_AdminLayout";
+}
+<link href="~/css/AdminRandevular.css" rel="stylesheet" />
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h3>Bekleyen Randevular</h3>
+        </div>
+        <div class="card-body">
+            <table class="randevu-table">
+                <thead>
+                    <tr>
+                        <th>Randevu ID</th>
+                        <th>Tarih</th>
+                        <th>Çalışan</th>
+                        <th>Hizmet</th>
+                        <th>Kullanıcı</th>
+                        <th>Durum</th>
+                         <th>Onayla</th>
+                        <th>Reddet</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var randevu in Model)
+                    {
+                        <tr>
+                            <td>@randevu.RandevuId</td>
+                            <td>@randevu.RandevuTarih.ToString("dd.MM.yyyy HH:mm")</td>
+                            <td>@randevu.Calisan.CalisanAd</td>
+                            <td>@randevu.Hizmet.HizmetAd</td>
+                            <td>@randevu.Kullanici.KullaniciAd</td>
+                            <td>@randevu.Durum</td>
+                             <td>
+                                <a href="@Url.Action("Onayla", "Randevu", new { randevuId = randevu.RandevuId })" class="btn btn-edit">Onayla</a>
+                            </td>
+                            <td>
+                                <a href="@Url.Action("Reddet", "Randevu", new { randevuId = randevu.RandevuId })" class="btn btn-delete">Reddet</a>
+                            </td> 
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

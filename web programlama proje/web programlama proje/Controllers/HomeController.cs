@@ -18,7 +18,18 @@ namespace web_programlama_proje.Controllers
         {
             return View();
         }
-
+        public IActionResult Hakkimizda()
+        {
+            return View();
+        }
+        public IActionResult Hizmetlerimiz()
+        {
+            return View();
+        }
+        public IActionResult Ekibimiz()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();
