@@ -31,7 +31,23 @@ namespace web_programlama_proje.Controllers
             }
             return RedirectToAction("CalianEkle","Calisan");
         }
-        
+        [HttpGet]
+        public IActionResult Sil(int id)
+        {
+            // Veritabanından çalışanı bul
+            var calisan = _dataContext.Calisanlar.FirstOrDefault(c => c.CalisanId == id);
+
+            if (calisan != null)
+            {
+                // Çalışanı veritabanından kaldır
+                _dataContext.Calisanlar.Remove(calisan);
+                _dataContext.SaveChanges();
+            }
+
+            // Çalışan listesi sayfasına geri yönlendir
+            return RedirectToAction("Calisanlar");
+        }
+
     }
 }
 

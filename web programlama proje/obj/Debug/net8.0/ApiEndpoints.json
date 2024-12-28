@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "ContainingType": "web_programlama_proje.Controllers.RandevuApiController",
+    "Method": "GetAllRandevular",
+    "RelativePath": "api/RandevuApi/GetAllRandevular",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web_programlama_proje.Controllers.RandevuApiController",
+    "Method": "Index",
+    "RelativePath": "api/RandevuApi/Index",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

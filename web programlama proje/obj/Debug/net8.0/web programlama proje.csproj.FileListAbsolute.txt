@@ -295,6 +295,8 @@ C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\web programlama proje.runtimeconfig.json
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\web programlama proje.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\web programlama proje.pdb
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\EntityFramework.SqlServer.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\EntityFramework.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Humanizer.dll
@@ -315,6 +317,7 @@ C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
@@ -325,6 +328,7 @@ C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.Design.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -335,7 +339,16 @@ C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
@@ -357,6 +370,7 @@ C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\SQLitePCLRaw.core.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -367,8 +381,11 @@ C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.Data.SqlClient.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.Runtime.Caching.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\System.Text.Encodings.Web.dll
@@ -525,6 +542,12 @@ C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
@@ -551,6 +574,7 @@ C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\obj\Debug\net8.0\web programlama proje.csproj.AssemblyReference.cache
 C:\Users\hasanbera\Desktop\web programlama proje\web programlama proje\obj\Debug\net8.0\web programlama proje.GeneratedMSBuildEditorConfig.editorconfig

@@ -4,8 +4,156 @@
     ViewData["Title"] = "Home Page";
     string Ad = Context.Session.GetString("KullaniciAd");
 }
+    <div class="container mt-5" style="width:fit-content">
+    <div class="jumbotron text-center bg-light shadow" style="width:fit-content">
+        <h1 class="display-4">Hoş Geldiniz, @Ad!</h1>
+        <p class="lead">Kuaförlük hizmetlerinde kalite ve güvenin adresine hoş geldiniz.</p>
+        <hr class="my-4">
+        <p>Sizlere en iyi hizmeti sunmak için buradayız. Hemen randevunuzu oluşturun veya hizmetlerimizi keşfedin!</p>
+        <a class="btn btn-primary btn-lg" href="/Hizmetler" role="button">Hizmetlerimiz</a>
+        <a class="btn btn-secondary btn-lg" href="/Randevu" role="button">Randevu Al</a>
+    </div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome @Ad</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="/images/haircut.jpg" class="card-img-top" alt="Saç Kesimi">
+                <div class="card-body">
+                    <h5 class="card-title">Saç Kesimi</h5>
+                    <p class="card-text">Profesyonel ekiplerimizle tarzınızı yansıtacak saç kesimleri.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="/images/coloring.jpg" class="card-img-top" alt="Saç Boyama">
+                <div class="card-body">
+                    <h5 class="card-title">Saç Boyama</h5>
+                    <p class="card-text">Son trend renkler ve tekniklerle mükemmel sonuçlar.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="/images/skincare.jpg" class="card-img-top" alt="Cilt Bakımı">
+                <div class="card-body">
+                    <h5 class="card-title">Cilt Bakımı</h5>
+                    <p class="card-text">Cildinize hak ettiği özeni göstermek için özel bakımlar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+<style>
+    /* Genel ayarlar */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Hafif gri arka plan */
+    color: #333; /* Genel metin rengi */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Anasayfa genel düzen */
+.anasayfa {
+    padding: 2rem;
+}
+
+.anasayfa .jumbotron {
+    background-color: #ffffff; /* Beyaz arka plan */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.anasayfa .jumbotron h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #34495e;
+}
+
+.anasayfa .jumbotron p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+.anasayfa .jumbotron .btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.anasayfa .jumbotron .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.anasayfa .jumbotron .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.anasayfa .jumbotron .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.anasayfa .jumbotron .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Kart düzeni */
+.anasayfa .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.anasayfa .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Hover'da daha belirgin gölge */
+}
+
+.anasayfa .card img {
+    width: 100%;
+    height: auto;
+}
+
+.anasayfa .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.anasayfa .card-text {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.anasayfa .row {
+    margin-top: 2rem;
+}
+
+.anasayfa .col-md-4 {
+    margin-bottom: 1.5rem;
+}
+
+
+
+</style>

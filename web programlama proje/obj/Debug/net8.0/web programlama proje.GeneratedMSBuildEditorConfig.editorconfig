@@ -46,8 +46,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsaXNhblxDYWxpc2FubGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Hizmet/HizmetEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGl6bWV0XEhpem1ldEVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Hizmet/Hizmetler.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGl6bWV0XEhpem1ldGxlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Home/Hakkimizda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIYWtraW1pemRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Home/Index.cshtml]
@@ -74,6 +82,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/RandevuApi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFuZGV2dUFwaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Randevu/AdminBekleyenRandevular.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFuZGV2dVxBZG1pbkJla2xleWVuUmFuZGV2dWxhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -90,8 +102,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFuZGV2dVxSYW5kZXZ1LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Randevu/RandevuListesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFuZGV2dVxSYW5kZXZ1TGlzdGVzaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Shared/ProfilLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFByb2ZpbExheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/hasanbera/Desktop/web programlama proje/web programlama proje/Views/Shared/_AdminLayout.cshtml]
